@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>About Us — ThumbnailGrab</title>
+<meta name="description" content="Learn about ThumbnailGrab — the free YouTube thumbnail downloader built for content creators, marketers, and designers worldwide."/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Epilogue:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--white:#ffffff;--off:#f5f6fa;--border:#e2e5ee;--text:#0f1625;--sub:#5a6478;--blue:#1a56db;--blue-bg:#eef3ff;--blue-bd:#c3d1f8;--green:#057a55;--green-bg:#f0fdf4;--shadow:0 1px 3px rgba(0,0,0,.07),0 4px 16px rgba(0,0,0,.07);--shadow-h:0 2px 8px rgba(0,0,0,.1),0 8px 32px rgba(0,0,0,.1)}
+body{background:var(--off);color:var(--text);font-family:'Epilogue',sans-serif;line-height:1.7}
+nav{background:var(--white);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+.nav-inner{max-width:1000px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nav-logo{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:800;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo-icon{background:var(--blue);color:#fff;border-radius:8px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:700}
+.nav-home{color:var(--blue);text-decoration:none;font-size:.85rem;font-weight:600}
+.hero{background:var(--white);border-bottom:1px solid var(--border);padding:64px 24px 56px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 60% at 50% -10%,rgba(26,86,219,.06) 0%,transparent 70%);pointer-events:none}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:var(--blue-bg);border:1px solid var(--blue-bd);border-radius:20px;padding:5px 14px;font-size:.72rem;font-weight:600;color:var(--blue);letter-spacing:.06em;text-transform:uppercase;margin-bottom:16px}
+h1{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:800;color:var(--text);margin-bottom:14px}
+h1 span{color:var(--blue)}
+.hero-sub{color:var(--sub);font-size:1rem;max-width:540px;margin:0 auto}
+.main{max-width:1000px;margin:0 auto;padding:48px 24px 80px}
+.card{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:32px;box-shadow:var(--shadow);margin-bottom:20px}
+.card h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:800;color:var(--text);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.card p{font-size:.9rem;color:var(--sub);margin-bottom:12px}
+.mission-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:8px}
+.mission-item{background:var(--off);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center}
+.mission-icon{font-size:1.8rem;margin-bottom:10px}
+.mission-item h3{font-size:.88rem;font-weight:700;color:var(--text);margin-bottom:6px}
+.mission-item p{font-size:.78rem;color:var(--sub);margin:0}
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin-top:8px}
+.stat-box{background:var(--blue-bg);border:1px solid var(--blue-bd);border-radius:12px;padding:20px;text-align:center}
+.stat-val{font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--blue)}
+.stat-lbl{font-size:.75rem;color:var(--sub);margin-top:4px}
+.feature-list{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.feature-row{display:flex;align-items:flex-start;gap:12px;padding:12px;background:var(--off);border-radius:10px}
+.feature-check{color:var(--green);font-size:1rem;margin-top:2px;flex-shrink:0}
+.feature-row h4{font-size:.88rem;font-weight:600;color:var(--text);margin-bottom:3px}
+.feature-row p{font-size:.78rem;color:var(--sub);margin:0}
+footer{background:var(--text);color:rgba(255,255,255,.6);padding:32px 24px;text-align:center;font-size:.78rem}
+footer a{color:rgba(255,255,255,.5);text-decoration:none;margin:0 10px}
+footer a:hover{color:#fff}
+@media(max-width:600px){h1{font-size:1.8rem}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span class="logo-icon">YT</span>ThumbnailGrab</a>
+    <a href="index.html" class="nav-home">← Back to Home</a>
+  </div>
+</nav>
+<div class="hero">
+  <div class="hero-badge">About Us</div>
+  <h1>Built for <span>Creators</span></h1>
+  <p class="hero-sub">ThumbnailGrab was built with one goal — give YouTube creators, marketers, and designers a fast, free, and simple way to access video thumbnails.</p>
+</div>
+<div class="main">
+  <div class="card">
+    <h2>Our Story</h2>
+    <p>ThumbnailGrab was created because we noticed content creators constantly struggling to find a simple, reliable tool to download YouTube thumbnails for inspiration, research, and design work.</p>
+    <p>Most tools were slow, filled with ads, required sign-ups, or simply didn't work. We decided to build something better — a clean, professional, lightning-fast thumbnail downloader that works perfectly on any device.</p>
+    <p>Today, ThumbnailGrab serves creators, marketers, designers, and researchers who need quick access to YouTube thumbnails without any hassle.</p>
+  </div>
+  <div class="card">
+    <h2>Our Mission</h2>
+    <div class="mission-grid">
+      <div class="mission-item"><div class="mission-icon">⚡</div><h3>Speed First</h3><p>Results in under 2 seconds, always.</p></div>
+      <div class="mission-item"><div class="mission-icon">🆓</div><h3>Always Free</h3><p>No hidden fees, no premium plans ever.</p></div>
+      <div class="mission-item"><div class="mission-icon">🔒</div><h3>Privacy Focused</h3><p>Your data stays in your browser.</p></div>
+      <div class="mission-item"><div class="mission-icon">📱</div><h3>Works Everywhere</h3><p>Desktop, tablet, and mobile ready.</p></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>By The Numbers</h2>
+    <div class="stats-row">
+      <div class="stat-box"><div class="stat-val">5</div><div class="stat-lbl">Quality Options</div></div>
+      <div class="stat-box"><div class="stat-val">0</div><div class="stat-lbl">Sign-ups Required</div></div>
+      <div class="stat-box"><div class="stat-val">100%</div><div class="stat-lbl">Free Forever</div></div>
+      <div class="stat-box"><div class="stat-val">&lt;2s</div><div class="stat-lbl">Load Time</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>What Makes Us Different</h2>
+    <div class="feature-list">
+      <div class="feature-row"><span class="feature-check">✓</span><div><h4>No Server Processing</h4><p>Everything runs in your browser. Your URLs never leave your device.</p></div></div>
+      <div class="feature-row"><span class="feature-check">✓</span><div><h4>All YouTube URL Formats</h4><p>Works with youtube.com, youtu.be, Shorts, and embed links.</p></div></div>
+      <div class="feature-row"><span class="feature-check">✓</span><div><h4>Multiple Resolutions</h4><p>From 120×90 standard to 1280×720 max quality — all in one click.</p></div></div>
+      <div class="feature-row"><span class="feature-check">✓</span><div><h4>Professional Design</h4><p>Clean, fast, and easy to use on any screen size.</p></div></div>
+      <div class="feature-row"><span class="feature-check">✓</span><div><h4>No Watermarks</h4><p>Download clean thumbnails exactly as they appear on YouTube.</p></div></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Who Uses ThumbnailGrab?</h2>
+    <div class="mission-grid">
+      <div class="mission-item"><div class="mission-icon">🎬</div><h3>YouTubers</h3><p>Research competitor thumbnails for inspiration.</p></div>
+      <div class="mission-item"><div class="mission-icon">📊</div><h3>Marketers</h3><p>Analyze what makes thumbnails successful.</p></div>
+      <div class="mission-item"><div class="mission-icon">🎨</div><h3>Designers</h3><p>Use thumbnails as design references.</p></div>
+      <div class="mission-item"><div class="mission-icon">📚</div><h3>Researchers</h3><p>Collect visual data for studies.</p></div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div style="margin-bottom:12px;font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:800;color:#fff">ThumbnailGrab</div>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Use</a>
+  <a href="contact.html">Contact</a>
+  <div style="margin-top:16px;color:rgba(255,255,255,.3)">© 2026 ThumbnailGrab. Not affiliated with YouTube or Google LLC.</div>
+</footer>
+</body>
+</html>
